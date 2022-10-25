@@ -32,11 +32,16 @@ Click [here](https://www.youtube.com/watch?v=FkDdmKzh4CU&ab_channel=DanielChang)
 - It was difficult to get accurate lighting and convincing 3D rendering. I did this by rendering two triangles for every group of four cloth nodes in a square shape. The normal for each vertex was computed by taking the cross product of the directions of the springs "above" and to the "left" of each cloth vertex. (for nodes on the left column and top row, the cross product was taken using the spring directions below and to the right)
 - It was a bit tricky to implement the cloth tearing. I did this by tracking horizontal and vertical spring connections, severing them when they exceeded a certain proportion of the rest length, and did not render the cloth face if one of the springs of the face was severed.
 
-## Fluid Simulation
+## 1D Fluid Simulation
 
 Click [here](https://github.com/danielchang2002/5611_projects/tree/main/project2/fluid) for the code!
 
 ### Demo video
 
-![img](https://raw.githubusercontent.com/danielchang2002/5611_PDE/main/cloth.png)
+![img](https://raw.githubusercontent.com/danielchang2002/5611_PDE/main/fluid.png)
 Click [here](https://www.youtube.com/watch?v=FkDdmKzh4CU&ab_channel=DanielChang) to watch the demo video!
+
+### Features
+- 1D continuum, PDE-based fluid simulation using the shallow water equation
+- Fluid in the simulation flows smoothly, executes in real-time, and is rendered to look (somewhat) like a fluid
+- Interaction with a beach ball
