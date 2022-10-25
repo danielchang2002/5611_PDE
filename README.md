@@ -39,9 +39,17 @@ Click [here](https://github.com/danielchang2002/5611_projects/tree/main/project2
 ### Demo video
 
 ![img](https://raw.githubusercontent.com/danielchang2002/5611_PDE/main/fluid.png)
-Click [here](https://www.youtube.com/watch?v=FkDdmKzh4CU&ab_channel=DanielChang) to watch the demo video!
+Click [here](https://www.youtube.com/watch?v=dk8dVankKLI&ab_channel=DanielChang) to watch the demo video!
 
 ### Features
 - 1D continuum, PDE-based fluid simulation using the shallow water equation
 - Fluid in the simulation flows smoothly, executes in real-time, and is rendered to look (somewhat) like a fluid
-- Interaction with a beach ball
+- 3D lighting
+
+### Technologies used:
+- Processing (Java)
+
+### Difficulties encountered
+- Lack of time :(
+- It was tricky to get the lighting correct, I ended up using the approach in class: rendering a quad for each two adjacent height cells, and computing the normal for each quad. 
+- The simulation was a bit jittery at first, I solved this somewhat by reducing the time step.
