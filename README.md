@@ -1,7 +1,7 @@
 # CSCI 5611 Project 2: Physically-Based Animation with PDEs
 Author: Daniel Chang (chan1975)
 
-Click here for the code!
+Click [here](https://github.com/danielchang2002/5611_projects/tree/main/project2/cloth) for the code!
 
 ## Cloth simulation
 
@@ -16,6 +16,8 @@ Click here for the code!
 - Ripping/tearing: the spherical object can occasionally cause tears in the cloth!
 
 ### Demo video
+
+![img](https://raw.githubusercontent.com/danielchang2002/5611_PDE/main/cloth.png)
 Click [here](https://www.youtube.com/watch?v=FkDdmKzh4CU&ab_channel=DanielChang) to watch the demo video!
 
 ### Technologies used:
